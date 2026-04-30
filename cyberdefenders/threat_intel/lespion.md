@@ -9,11 +9,11 @@
 | Completed | 2026/04/29 |
 
 ## Scenario
-A client network was compromised and brought offline.<br>
-The task is to investigate the incident and determine the attacker's identity.<br>
+A client network was compromised and brought offline.<br><br>
+The task is to investigate the incident and determine the attacker's identity.<br><br>
 
-Incident responders and digital forensic investigators are currently on the scene and have conducted a preliminary investigation.<br>
-Their findings show that the attack originated from a single user account, probably, an insider. <br>
+Incident responders and digital forensic investigators are currently on the scene and have conducted a preliminary investigation.<br><br>
+Their findings show that the attack originated from a single user account, probably, an insider. <br><br>
 Investigate the incident, find the insider, and uncover the attack actions.
 
 
@@ -24,73 +24,73 @@ Investigate the incident, find the insider, and uncover the attack actions.
 ## Investigation
 ### Step1: 
 #### Q1: File -> Github.txt: What API key did the insider add to his GitHub repositories?
-Opened [the github page](https://github.com/EMarseille99). Repositories > Project-Build---Custom-Login-Page > Login Page.js, found the API key.<br>
+Opened [the github page](https://github.com/EMarseille99). Repositories > Project-Build---Custom-Login-Page > Login Page.js, found the API key.<br><br>
 <img width="890" height="308" alt="image" src="https://github.com/user-attachments/assets/33d5e064-2d78-4101-b635-dc9c437ffc3c" />
-
+<br><br>
 A. aJFRaLHjMXvYZgLPwiJkroYLGRkNBW
-<br>
+<br><br>
 
 #### Q2: File -> Github.txt: What plaintext password did the insider add to his GitHub repositories?
-Read through Login Page.js and found Base 64 encoded password.<br>
+Read through Login Page.js and found Base 64 encoded password.<br><br>
 <img width="819" height="321" alt="image" src="https://github.com/user-attachments/assets/1f0416aa-aaf7-416b-8919-d2d53a2458de" />
-<br>
-Decoded it at CyberChef, and got the plaintext password.<br>
+<br><br>
+Decoded it at CyberChef, and got the plaintext password.<br><br>
 
 A. PicassoBaguette99
-<br>
+<br><br>
 
 #### Q3: File -> Github.txt: What cryptocurrency mining tool did the insider use?
-Investigated the repositories and found the cryptocurrency mining tool.<br>
+Investigated the repositories and found the cryptocurrency mining tool.<br><br>
 <img width="765" height="193" alt="image" src="https://github.com/user-attachments/assets/9f72fc66-0d9f-4748-9cf0-22b8792c5944" />
-
+<br><br>
 
 A. XMRig
-<br>
+<br><br>
 
 #### Q4: On which gaming website did the insider have an account?
-Google Search for the user account found at Q2.<br>
-Found a steam account.<br>
+Google Search for the user account found at Q2.<br><br>
+Found a steam account.<br><br>
 <img width="1360" height="862" alt="image" src="https://github.com/user-attachments/assets/13fc446a-bd6b-4546-a00f-995bff944b9a" />
-
+<br><br>
 A. steam
-<br>
+<br><br>
 
 #### Q5: What is the link to the insider Instagram profile?
-The above screenshot contained the instagram account as well.<br>
+The above screenshot contained the instagram account as well.<br><br>
 
 A. hxxps[://]www[.]instagram[.]com/emarseille99/
-<br>
+<br><br>
 
 #### Q6: Which country did the insider visit on her holiday?
-Investigated her instagram post.<br>
-She went to Marina Bay Sands.<br>
+Investigated her instagram post.<br><br>
+She went to Marina Bay Sands.<br><br>
 <img width="1552" height="642" alt="image" src="https://github.com/user-attachments/assets/e5c697dd-3ec9-4bd7-9b7d-ced3e66e9295" />
-
+<br><br>
 A. Singapore
-<br>
+<br><br>
 
 #### Q7: Which city does the insider family live in?
-Still investigated other posts. <br>
+Still investigated other posts. <br><br>
 <img width="871" height="507" alt="image" src="https://github.com/user-attachments/assets/753334b4-7e2e-46e6-9c91-44182f3ea9e2" />
-
+<br><br>
 Based on Google lens search, it should be Dubai.
-
+<br><br>
 A. Dubai
-<br>
+<br><br>
 
 #### Q8: File -> office.jpg: You have been provided with a picture of the building in which the company has an office. Which city is the company located in?
-Leveraged Google Image Search to find the city. AI Overview answered "Birmingham, UK".<br>
+Leveraged Google Image Search to find the city. AI Overview answered "Birmingham, UK".<br><br>
 <img width="1162" height="543" alt="image" src="https://github.com/user-attachments/assets/55ccc49b-b7cd-49c5-b55f-2835adbe5550" />
-
+<br><br>
 A. Birmingham
-<br>
+<br><br>
 
 #### Q9: File -> Webcam.png: With the intel, you have provided, our ground surveillance unit is now overlooking the person of interest suspected address. They saw them leaving their apartment and followed them to the airport. Their plane took off and landed in another country. Our intelligence team spotted the target with this IP camera. Which state is this camera in?
-Still leveraged Google Image Search to find the state. AI Overview also gave an answer.
+Still leveraged Google Image Search to find the state. AI Overview also gave an answer.<br><br>
 <img width="1174" height="980" alt="image" src="https://github.com/user-attachments/assets/01eef7d3-fbcd-4973-95a9-a9a73810ab8d" />
-
+<br><br>
 A. Indiana
-<br>
+<br><br>
 
 ## Key Findings / IOCs
 | Type | Value |
