@@ -6,7 +6,7 @@
 | Platform | CyberDefenders |
 | Category | Network Forensics |
 | Difficulty | Easy |
-| Completed | |
+| Completed | 2026/05/03 |
 
 ## Scenario
 An alert from the Intrusion Detection System (IDS) flagged suspicious lateral movement activity involving PsExec.<br><br>
