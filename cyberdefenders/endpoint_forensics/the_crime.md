@@ -1,4 +1,4 @@
-# WIP: [[The Crime](https://cyberdefenders.org/blueteam-ctf-challenges/the-crime/)] - CyberDefenders Writeup
+# [[The Crime](https://cyberdefenders.org/blueteam-ctf-challenges/the-crime/)] - CyberDefenders Writeup
 
 ## Overview
 | | |
@@ -6,7 +6,7 @@
 | Platform | CyberDefenders |
 | Category | Endpoint Forensics |
 | Difficulty | Easy |
-| Completed | |
+| Completed | 2026/05/03 |
 
 ## Scenario
 We're currently in the midst of a murder investigation, and we've obtained the victim's phone as a key piece of evidence.<br>
@@ -93,8 +93,7 @@ A. The Mob Museum
 ## Key Findings / IOCs
 | Type | Value |
 |---|---|
-| Trading App | Olymp Trade |
-| App Hash | 4f168a772350f283a1c49e78c1548d7c2c6c05106d8b9feb825fdc3466e9df3c |
+| Trading App | Olymp Trade (4f168a772350f283a1c49e78c1548d7c2c6c05106d8b9feb825fdc3466e9df3c) |
 | Debt | 250,000 EGP |
 | Lender | Shady Wahab |
 | Location at Sep 20 | The Nile Ritz-Carlton |
