@@ -75,7 +75,7 @@ Searched the above malicious IP address at ThreatFox like `ioc: 77.91.124.55`. F
 A. RECORDSTEALER
 <br><br>
 #### Q9: By identifying the malware's imported DLLs, we can configure security tools to monitor for the loading or unusual usage of these specific DLLs. Can you provide the DLL utilized by the malware for privilege escalation?
-Moved gack to Detail tab in VirusTotal. There are several "Imported" DLLs.<br><br>
+Moved back to Detail tab in VirusTotal. There are several "Imported" DLLs.<br><br>
 Under ADVAPI32.dll, found AdjustTokenPrivileges or OpenProcessToken, which are necessary for manipulating access tokens and escalating privileges.<br><br>
 <img width="824" height="587" alt="image" src="https://github.com/user-attachments/assets/9d279fee-c104-4b1e-bbf0-7765af846627" />
 
@@ -93,7 +93,7 @@ A. ADVAPI32.dll
 | DNS Resolution Domain | facebook[.]com |
 | C2 | 77[.]91[.]124[.]55:19071 |
 | YARA Rule | detect_Redline_Stealer |
-| DLL for Previlege Escalation | ADVAPI32.dll |
+| DLL for Privilege Escalation | ADVAPI32.dll |
 
 ## Lessons Learned
 - I was struggling to find the imported files in VirusTotal, which was found under "Details" tab, not "Behavior" tab. Based on search, this is because imported files are discoverd by static analysis.
